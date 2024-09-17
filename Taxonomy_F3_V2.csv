@@ -1,4 +1,4 @@
-﻿form,set_code,dm_code ,running_number,reference_no,indent,item_in_taxonomy,item_in_taxonomy_en,parent_code,parent_code_operation,formating,data_type,symbol,financial_statement_type,fs_category,description_th ,description_en,opposite_code_short ,mandatory_mapping,zone_code,warning_mapping_msg_th,warning_mapping_msg_en,meaning_of_taxonomy
+﻿form_no,set_code,dm_code ,running_number,reference_no,indent,item_in_taxonomy,item_in_taxonomy_en,parent_code,parent_code_operation,formating,data_type,symbol,financial_statement_type,fs_category,description_th ,description_en,opposite_code_short ,mandatory_mapping,zone_code,warning_mapping_msg_th,warning_mapping_msg_en,meaning_of_taxonomy
 F3,100000,T1,1,1,0,สินทรัพย์,Assets,No,,B Fix,T,,BS_A,สินทรัพย์,,,,,,,,สินทรัพย์ ประกอบด้วยเลขอ้างอิงที่ 2 ถึง 41
 F3,100100,1,2,2,0,เงินสดและรายการเทียบเท่าเงินสด,Cash And Cash Equivalents,109999,1,,N,23,BS_A,สินทรัพย์,แสดงผลใน Company Highlight & Fact Sheet,Displayed in the Company Highlight & Fact Sheet,,,,,,"หมายถึง รายการดังต่อไปนี้
 1. เงินสด หมายถึง รายการดังต่อไปนี้
