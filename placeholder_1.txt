@@ -1,0 +1,374 @@
+{'data_type': 'NV', 'symbol': '23', 'meaning_of_taxonomy': 'รวมหนี้สิน เป็นผลรวมของเลขอ้างอิงที่ 147 และ 182', 'fs_category': 'หนี้สิน', 'item_in_taxonomy': 'รวมหนี้สิน', 'financial_statement_type': 'BS_L', 'set_code': '209999', 'form_no': 'F6'}
+{'mandatory_mapping': 'N', 'symbol': '23', 'form_no': 'F6', 'data_type': 'NV', 'item_in_taxonomy': 'รวมหนี้สิน', 'set_code': '209999', 'financial_statement_type': 'BS_L', 'meaning_of_taxonomy': 'รวมหนี้สิน เป็นผลรวมของเลขอ้างอิงที่ 147 และ 182', 'fs_category': 'หนี้สิน'}
+{'set_code': '229999', 'data_type': 'NV', 'fs_category': 'หนี้สินไม่หมุนเวียน', 'symbol': '23', 'item_in_taxonomy': 'รวมหนี้สินไม่หมุนเวียน', 'financial_statement_type': 'BS_L', 'form_no': 'F6', 'meaning_of_taxonomy': 'รวมหนี้สินไม่หมุนเวียน เป็นผลรวมของเลขอ้างอิงที่ 149 ถึง 181'}
+{'financial_statement_type': 'BS_L', 'data_type': 'NV', 'set_code': '229999', 'fs_category': 'หนี้สินไม่หมุนเวียน', 'form_no': 'F6', 'symbol': '23', 'mandatory_mapping': 'N', 'item_in_taxonomy': 'รวมหนี้สินไม่หมุนเวียน', 'meaning_of_taxonomy': 'รวมหนี้สินไม่หมุนเวียน เป็นผลรวมของเลขอ้างอิงที่ 149 ถึง 181'}
+{'meaning_of_taxonomy': 'รวมหนี้สินหมุนเวียน เป็นผลรวมของเลขอ้างอิงที่ 110 ถึง 146', 'item_in_taxonomy': 'รวมหนี้สินหมุนเวียน', 'mandatory_mapping': 'N', 'financial_statement_type': 'BS_L', 'fs_category': 'หนี้สินหมุนเวียน', 'symbol': '23', 'form_no': 'F6', 'data_type': 'NV', 'set_code': '219999'}
+{'form_no': 'F6', 'meaning_of_taxonomy': 'รวมหนี้สินหมุนเวียน เป็นผลรวมของเลขอ้างอิงที่ 110 ถึง 146', 'fs_category': 'หนี้สินหมุนเวียน', 'item_in_taxonomy': 'รวมหนี้สินหมุนเวียน', 'financial_statement_type': 'BS_L', 'data_type': 'NV', 'symbol': '23', 'set_code': '219999'}
+{'form_no': 'F6', 'financial_statement_type': 'BS_OE', 'data_type': 'NV', 'set_code': '309999', 'item_in_taxonomy': 'รวมหนี้สินและส่วนของผู้ถือหุ้น', 'meaning_of_taxonomy': 'รวมหนี้สินและส่วนของผู้ถือหุ้น เป็นผลรวมของเลขอ้างอิงที่ 183 และ 223', 'fs_category': 'ส่วนของผู้ถือหุ้น', 'symbol': '23'}
+{'financial_statement_type': 'BS_OE', 'item_in_taxonomy': 'รวมหนี้สินและส่วนของผู้ถือหุ้น', 'meaning_of_taxonomy': 'รวมหนี้สินและส่วนของผู้ถือหุ้น เป็นผลรวมของเลขอ้างอิงที่ 183 และ 223', 'set_code': '309999', 'data_type': 'NV', 'symbol': '23', 'mandatory_mapping': 'N', 'fs_category': 'ส่วนของผู้ถือหุ้น', 'form_no': 'F6'}
+{'data_type': 'R', 'symbol': '23', 'mandatory_mapping': 'N', 'form_no': 'F6', 'fs_category': 'หนี้สินไม่หมุนเวียน', 'set_code': '221800', 'item_in_taxonomy': 'หนี้สินระยะยาว - ส่วนที่ถึงกำหนดชำระเกินกว่าหนึ่งปี', 'financial_statement_type': 'BS_L', 'meaning_of_taxonomy': 'หมายถึง เงินกู้ยืมระยะยาว รวมถึงหนี้สินระยะยาวในลักษณะอื่นใดที่จะถึงกำหนดชำระคืนเกินกว่า 12 เดือนนับจากวันสิ้นรอบระยะเวลารายงาน เช่น เงินกู้ยืมระยะยาวที่ถึงกำหนดชำระเกินกว่าหนึ่งปี หุ้นกู้ที่ถึงกำหนดชำระเกินกว่าหนึ่งปี หุ้นกู้ด้อยสิทธิที่ถึงกำหนดชำระเกินกว่าหนึ่งปี หุ้นกู้ที่ผู้ถือมีสิทธิไถ่ถอนหรือแปลงสภาพได้ในระยะเวลาเกินกว่าหนึ่งปี หุ้นบุริมสิทธิที่มีลักษณะเป็นหนี้สินทางการเงินผู้ถือมีสิทธิไถ่ถอนหรือแปลงสภาพได้ในระยะเวลาเกินกว่าหนึ่งปี เป็นต้น\r\n\r\nหนี้สินระยะยาว - ส่วนที่ถึงกำหนดชำระเกินกว่าหนึ่งปี ประกอบด้วยเลขอ้างอิงที่ 157 ถึง 161'}
+{'item_in_taxonomy': 'หนี้สินระยะยาว - ส่วนที่ถึงกำหนดชำระเกินกว่าหนึ่งปี', 'set_code': '221800', 'financial_statement_type': 'BS_L', 'data_type': 'R', 'form_no': 'F6', 'symbol': '23', 'fs_category': 'หนี้สินไม่หมุนเวียน', 'meaning_of_taxonomy': 'หมายถึง เงินกู้ยืมระยะยาว รวมถึงหนี้สินระยะยาวในลักษณะอื่นใดที่จะถึงกำหนดชำระคืนเกินกว่า 12 เดือนนับจากวันสิ้นรอบระยะเวลารายงาน เช่น เงินกู้ยืมระยะยาวที่ถึงกำหนดชำระเกินกว่าหนึ่งปี หุ้นกู้ที่ถึงกำหนดชำระเกินกว่าหนึ่งปี หุ้นกู้ด้อยสิทธิที่ถึงกำหนดชำระเกินกว่าหนึ่งปี หุ้นกู้ที่ผู้ถือมีสิทธิไถ่ถอนหรือแปลงสภาพได้ในระยะเวลาเกินกว่าหนึ่งปี หุ้นบุริมสิทธิที่มีลักษณะเป็นหนี้สินทางการเงินผู้ถือมีสิทธิไถ่ถอนหรือแปลงสภาพได้ในระยะเวลาเกินกว่าหนึ่งปี เป็นต้น\r\n\r\nหนี้สินระยะยาว - ส่วนที่ถึงกำหนดชำระเกินกว่าหนึ่งปี ประกอบด้วยเลขอ้างอิงที่ 157 ถึง 161'}
+
+
+
+
+
+
+
+Prompt Token Count: 3364
+Candidates Token Count: 102
+Total Token Count: 3466
+Input Query: เงินสด
+Predicted: {"financial_statement_type": "BS_A", "item_in_taxonomy": "เงินสด", "query": "เงินสด", "reasoning": "The provided financial report line item name is \"เงินสด\" which directly matches the item \"เงินสด\" in the taxonomy list. Therefore, the SET code is \"100100\" and the financial statement type is \"BS_A\".", "set_code": "100100"} 
+
+Prompt Token Count: 8392
+Candidates Token Count: 108
+Total Token Count: 8500
+Input Query: รายการระหว่างธนาคารและตลาดเงินสุทธิ
+Predicted: {"financial_statement_type": "BS_A", "item_in_taxonomy": "รายการระหว่างธนาคารและตลาดเงิน - สุทธิ", "query": "รายการระหว่างธนาคารและตลาดเงินสุทธิ", "reasoning": "The most similar item in taxonomy to the query is รายการระหว่างธนาคารและตลาดเงิน - สุทธิ and the fs_category is สินทรัพย์ as requested.", "set_code": "100200"} 
+
+Prompt Token Count: 4495
+Candidates Token Count: 192
+Total Token Count: 4687
+Input Query: สินทรัพย์ทางการเงินที่วัดมูลค่าด้วยมูลค่ายุติธรรมผ่านกำไรหรือขาดทุน
+Predicted: {"financial_statement_type": "BS_A", "item_in_taxonomy": "สินทรัพย์ทางการเงินที่วัดมูลค่าด้วยมูลค่ายุติธรรมผ่านกำไรหรือขาดทุน", "query": "สินทรัพย์ทางการเงินที่วัดมูลค่าด้วยมูลค่ายุติธรรมผ่านกำไรหรือขาดทุน", "reasoning": "The user's query 'สินทรัพย์ทางการเงินที่วัดมูลค่าด้วยมูลค่ายุติธรรมผ่านกำไรหรือขาดทุน'  directly matches the item 'สินทรัพย์ทางการเงินที่วัดมูลค่าด้วยมูลค่ายุติธรรมผ่านกำไรหรือขาดทุน' in the provided taxonomy list. Also, the fs_category property, 'สินทรัพย์', aligns with the query.", "set_code": "100600"} 
+
+
+
+
+
+
+Rev1
+input = [
+    "From the financial report line item name as INPUT. Use the Taxonomy list in CONTEXT with the INPUT METADATA and follow INSTRUCTION to suggest the correct SET Code and Item in Taxonomy.",
+    f"INPUT: {query}",
+    f"INPUT METADATA: {metadata}"
+    f"""<CONTEXT>{search_result}</CONTEXT>""",
+    f"""<INSTRUCTIONS>
+    - the value of property fs_category in the correct Taxonomy list item should similar to {category}. if not use item_in_taxonomy instead of fs_category.
+    - The correct SET Code and Item in Taxonomy must be selected from the same item in Taxonomy list within CONTEXT.
+    </INSTRUCTIONS>""",
+    "OUTPUT IN JSON (query, set_code, item_in_taxonomy, financial_statement_type) and Reasoning:"
+]
+
+
+
+
+
+set_code and item_in_taxonomy must be selected from the same Taxonomy list item.
+
+
+
+"From the financial report line item name as INPUT. Use the Taxonomy list in CONTEXT with the INPUT METADATA and follow INSTRUCTION to suggest the correct SET Code and Item in Taxonomy.",
+f"INPUT: {query}",
+f"INPUT METADATA: {metadata}"
+f"""<CONTEXT>{search_result}</CONTEXT>""",
+f"""<INSTRUCTIONS>
+- Suggest the correct SET Code and Item in Taxonomy which the INPUT is most similar to item_in_taxonomy and the value of property fs_category correspond with {category}.
+- The correct SET Code and Item in Taxonomy must be selected from the same item in Taxonomy list within CONTEXT.
+</INSTRUCTIONS>""", 
+"OUTPUT IN JSON (query, set_code, item_in_taxonomy, financial_statement_type) and Reasoning:"
+
+
+1.
+f"""<INSTRUCTIONS>
+- Suggest the correct SET Code and Item in Taxonomy which the value of property fs_category correspond with {category}.
+- If you cannot find a corresponding fs_category, suggest the correct SET Code and Item in Taxonomy which the INPUT is most similar to item_in_taxonomy. 
+- The correct SET Code and Item in Taxonomy must be selected from the same item in Taxonomy list within CONTEXT.
+</INSTRUCTIONS>""",
+
+ 
+2.	
+f"""<INSTRUCTIONS>
+- Suggest the correct SET Code and Item in Taxonomy which the value of property fs_category correspond with {category}.
+- If you cannot find a corresponding fs_category, suggest the correct SET Code and Item in Taxonomy which the INPUT is most similar to item_in_taxonomy and financial_statement_type correspond with {fs_type}.
+- The correct SET Code and Item in Taxonomy must be selected from the same item in Taxonomy list within CONTEXT.
+</INSTRUCTIONS>""", 
+
+3.	
+f"""<INSTRUCTIONS>
+- Suggest the correct SET Code and Item in Taxonomy which the INPUT is most similar to item_in_taxonomy and the value of property fs_category correspond with {category}.
+- The correct SET Code and Item in Taxonomy must be selected from the same item in Taxonomy list within CONTEXT.
+</INSTRUCTIONS>""", 
+
+
+
+
+Found 20 Search result candidate
+Total Token Count: 2798
+Input Query: ค่าเสื่อมราคาและค่าตัดจำหน่าย
+Predicted: {"financial_statement_type": "CF", "item_in_taxonomy": "ค่าเสื่อมราคาและค่าตัดจำหน่าย", "query": "ค่าเสื่อมราคาและค่าตัดจำหน่าย", "reasoning": "The input matches the item_in_taxonomy \"ค่าเสื่อมราคาและค่าตัดจำหน่าย\" in the taxonomy list.  The fs_category in the taxonomy list is กิจกรรมดำเนินงาน, which is related to the input metadata fs_category กระแสเงินสดจากการดำเนินงาน.", "set_code": "510300"} 
+
+Found 20 Search result candidate
+Total Token Count: 2793
+Input Query: ขาดทุนจากการแปลงค่าเงินตราต่างประเทศ
+Predicted: {"financial_statement_type": "CF", "item_in_taxonomy": "ผลต่างจากอัตราแลกเปลี่ยนจากการแปลงค่างบการเงิน", "query": "ขาดทุนจากการแปลงค่าเงินตราต่างประเทศ", "reasoning": "The most relevant item from the provided taxonomy list is 'ผลต่างจากอัตราแลกเปลี่ยนจากการแปลงค่างบการเงิน' (Differences Of Foreign Currency Exchange On Financial Statements Translation) with SET Code '540200'. Although the input specifies 'cash flow from operating activities', this specific item falls under 'Effects of Exchange Rates' in the taxonomy, which is acceptable as no suitable match exists within the 'operating activities' category.", "set_code": "540200"} 
+
+Found 20 Search result candidate
+Total Token Count: 3024
+Input Query: กำไรที่ยังไม่เกิดขึ้นจริงจากการตีมูลค่าอนุพันธ์
+Predicted: {"financial_statement_type": "CF", "item_in_taxonomy": "กำไร (ขาดทุน) จากการเปลี่ยนเงื่อนไขตราสารหนี้", "query": "กำไรที่ยังไม่เกิดขึ้นจริงจากการตีมูลค่าอนุพันธ์", "reasoning": "The input query indicates a financial gain related to changes in fair value, specifically unrealized gains from derivative valuation. The most relevant item from the taxonomy list considering the input metadata 'fs_category' as 'กระแสเงินสดจากการดำเนินงาน' and 'financial_statement_type' as 'งบกระแสเงินสด สำหรับงวดหกเดือนสิ้นสุดวันที่ 30 มิถุนายน 2567' is 'กำไร (ขาดทุน) จากการเปลี่ยนเงื่อนไขตราสารหนี้' with 'set_code' '512400'.", "set_code": "512400"} 
+
+Found 20 Search result candidate
+Total Token Count: 2777
+Input Query: ส่วนแบ่งกำไรจากเงินลงทุนตามวิธีส่วนได้เสีย
+Predicted: {"financial_statement_type": "CF", "item_in_taxonomy": "ส่วนแบ่ง (กำไร) ขาดทุนจากเงินลงทุนตามวิธีส่วนได้เสีย", "query": "ส่วนแบ่งกำไรจากเงินลงทุนตามวิธีส่วนได้เสีย", "reasoning": "The INPUT 'ส่วนแบ่งกำไรจากเงินลงทุนตามวิธีส่วนได้เสีย' matches closely  with the 'item_in_taxonomy' field 'ส่วนแบ่ง (กำไร) ขาดทุนจากเงินลงทุนตามวิธีส่วนได้เสีย'.  Also, the INPUT METADATA 'fs_category' is 'กระแสเงินสดจากการดำเนินงาน' which is related to the 'fs_category' of the selected Taxonomy list item 'กิจกรรมดำเนินงาน'.", "set_code": "510600"} 
+
+Found 20 Search result candidate
+Total Token Count: 2909
+Input Query: ขาดทุนจากเงินลงทุน
+Predicted: {"financial_statement_type": "CF", "item_in_taxonomy": "ส่วนแบ่ง (กำไร) ขาดทุนจากเงินลงทุนตามวิธีส่วนได้เสีย", "query": "ขาดทุนจากเงินลงทุน", "reasoning": "The most relevant item from the provided taxonomy list is 'ส่วนแบ่ง (กำไร) ขาดทุนจากเงินลงทุนตามวิธีส่วนได้เสีย' (Share Of (Profit) Loss From Investments Accounted For Using The Equity Method) as it closely aligns with the input 'ขาดทุนจากเงินลงทุน' (Loss from investment).", "set_code": "510600"} 
+
+Found 20 Search result candidate
+Total Token Count: 2913
+Input Query: ส่วนเกินมูลค่าเงินทุนในตราสารหนี้ตัดจำหน่าย
+Predicted: {"financial_statement_type": "CF", "item_in_taxonomy": "กำไร (ขาดทุน) จากการเปลี่ยนเงื่อนไขตราสารหนี้", "query": "ส่วนเกินมูลค่าเงินทุนในตราสารหนี้ตัดจำหน่าย", "reasoning": "The INPUT METADATA states that the financial_statement_type is งบกระแสเงินสด and fs_category is กระแสเงินสดจากการดำเนินงาน. The most relevant item in the Taxonomy list is 'กำไร (ขาดทุน) จากการเปลี่ยนเงื่อนไขตราสารหนี้' with SET Code '512400', as it relates to gains or losses on debt instruments, which aligns with the concept of 'ส่วนเกินมูลค่าเงินทุนในตราสารหนี้ตัดจำหน่าย'.", "set_code": "512400"} 
+
+Found 20 Search result candidate
+Total Token Count: 2917
+Input Query: กำไรจากการจำหน่ายทรัพย์สินรอการขาย
+Predicted: {"financial_statement_type": "CF", "item_in_taxonomy": "กำไร) ขาดทุนจากการขายทรัพย์สินรอการขาย", "query": "กำไรจากการจำหน่ายทรัพย์สินรอการขาย", "reasoning": "The INPUT METADATA states that fs_category is กระแสเงินสดจากการดำเนินงาน.  The closest match from the Taxonomy list is fs_category: 'กิจกรรมดำเนินงาน' and item_in_taxonomy: '(กำไร) ขาดทุนจากการขายทรัพย์สินรอการขาย'.", "set_code": "511200"} 
+
+Found 20 Search result candidate
+Total Token Count: 3103
+Input Query: ขาดทุนจากการจำหน่ายที่ดิน อาคารและอุปกรณ์
+Predicted: {
+"financial_statement_type": "CF",
+"item_in_taxonomy": "**(กำไร) ขาดทุนจากการขายและตัดจำหน่ายสินทรัพย์ถาวร**\n**(กำไร) ขาดทุนจากการขายสินทรัพย์ถาวร**",
+"query": "ขาดทุนจากการจำหน่ายที่ดิน อาคารและอุปกรณ์",
+"reasoning": "The input mentions \"ขาดทุนจากการจำหน่ายที่ดิน อาคารและอุปกรณ์\" which refers to losses from the sale of land, buildings, and equipment. This aligns with the concept of (กำไร) ขาดทุนจากการขายและตัดจำหน่ายสินทรัพย์ถาวร (กำไร) ขาดทุนจากการขายสินทรัพย์ถาวร, meaning (Gains) Losses on Disposal and Write-Off of Fixed Assets (Gains) Losses on Disposal of Fixed Assets. Although no item in the taxonomy list exactly matches the fs_category กระแสเงินสดจากการดำเนินงาน, this item's item_in_taxonomy is the most relevant to the input query.",
+"set_code": "511510"
+} 
+
+Found 20 Search result candidate
+Total Token Count: 2712
+Input Query: ขาดทุนจากการด้อยค่าของทรัพย์สินรอการขาย
+Predicted: {"financial_statement_type": "CF", "item_in_taxonomy": "null", "query": "ขาดทุนจากการด้อยค่าของทรัพย์สินรอการขาย", "reasoning": "There is no item in the taxonomy list that matches the query and financial statement type. Therefore, the JSON output will return the query with a null value for the item in taxonomy.", "set_code": "null"} 
+
+Found 20 Search result candidate
+Total Token Count: 2771
+Input Query: ขาดทุนจากการด้อยค่าของที่ดิน อาคารและอุปกรณ์
+Predicted: {"financial_statement_type": "CF", "item_in_taxonomy": "null", "query": "ขาดทุนจากการด้อยค่าของที่ดิน อาคารและอุปกรณ์", "reasoning": "The input item name is related to impairment loss, but there is no directly matching item in the provided taxonomy list under the specified 'fs_category' related to กระแสเงินสดจากการดำเนินงาน. Therefore, we cannot identify a suitable SET Code and Item in Taxonomy.", "set_code": "null"} 
+
+Found 20 Search result candidate
+Total Token Count: 2883
+Input Query: ขาดทุนจากการด้อยค่าของสินทรัพย์อื่น (โอนกลับ)
+Predicted: {"financial_statement_type": "CF", "item_in_taxonomy": " (โอนกลับ) ขาดทุนจากการด้อยค่าของสินทรัพย์อื่น", "query": "ขาดทุนจากการด้อยค่าของสินทรัพย์อื่น (โอนกลับ)", "reasoning": "The input name is highly similar to the item \"(โอนกลับ) ขาดทุนจากการด้อยค่าของสินทรัพย์อื่น\" in the taxonomy list. And the fs_category in the input metadata is matched with the taxonomy list.", "set_code": "512100"} 
+
+Found 20 Search result candidate
+Total Token Count: 2941
+Input Query: สำรองอื่นเพิ่มขึ้น
+Predicted: {"financial_statement_type": "CF", "item_in_taxonomy": "หนี้สินดำเนินงานอื่น เพิ่มขึ้น (ลดลง)", "query": "สำรองอื่นเพิ่มขึ้น", "reasoning": "The most relevant item from the provided taxonomy list is 'หนี้สินดำเนินงานอื่น เพิ่มขึ้น (ลดลง)' because this item represents the changes in other operating liabilities, which aligns with the input 'สำรองอื่นเพิ่มขึ้น' that refers to an increase in other reserves, typically a liability. Considering the input metadata 'fs_category' is 'กระแสเงินสดจากการดำเนินงาน', it confirms that the selected item aligns with the context of cash flow from operating activities.", "set_code": "518300"} 
+
+Found 20 Search result candidate
+Total Token Count: 2468
+Input Query: รายได้ดอกเบี้ยสุทธิ
+Predicted: {"financial_statement_type": "CF", "item_in_taxonomy": "รายได้ดอกเบี้ยสุทธิ", "query": "รายได้ดอกเบี้ยสุทธิ", "reasoning": "The input query matches directly with 'รายได้ดอกเบี้ยสุทธิ' in the provided taxonomy list.  Also, the fs_category in the taxonomy list matches the input metadata fs_category, which is กระแสเงินสดจากการดำเนินงาน.", "set_code": "514500"} 
+
+Found 20 Search result candidate
+Total Token Count: 2524
+Input Query: เงินสดรับดอกเบี้ย
+Predicted: {"financial_statement_type": "CF", "item_in_taxonomy": "รับดอกเบี้ย", "query": "เงินสดรับดอกเบี้ย", "reasoning": "The input query \"เงินสดรับดอกเบี้ย\" matches with meaning_of_taxonomy \"เงินสดรับดอกเบี้ย\" in the Taxonomy list.  Also, the input metadata financial_statement_type งบกระแสเงินสด สำหรับงวดหกเดือนสิ้นสุดวันที่ 30 มิถุนายน 2567 matches with financial_statement_type CF and fs_category กระแสเงินสดจากการดำเนินงาน matches with fs_category กิจกรรมดำเนินงาน in the Taxonomy list. ", "set_code": "519500"} 
+
+Found 20 Search result candidate
+Total Token Count: 2493
+Input Query: เงินสดจ่ายดอกเบี้ย
+Predicted: {"financial_statement_type": "CF", "item_in_taxonomy": "จ่ายดอกเบี้ย", "query": "เงินสดจ่ายดอกเบี้ย", "reasoning": "The input 'เงินสดจ่ายดอกเบี้ย' matches the meaning_of_taxonomy 'เงินสดจ่ายดอกเบี้ย' in the Taxonomy list.  The fs_category is 'กิจกรรมดำเนินงาน' which is related to 'กระแสเงินสดจากการดำเนินงาน'.", "set_code": "519600"} 
+
+Found 20 Search result candidate
+Total Token Count: 2757
+Input Query: กำไรจากการซื้อกิจการในราคาต่อรอง
+Predicted: {"financial_statement_type": "CF", "item_in_taxonomy": "null", "query": "กำไรจากการซื้อกิจการในราคาต่อรอง", "reasoning": "There is no item in the taxonomy that seems to match the query 'กำไรจากการซื้อกิจการในราคาต่อรอง' related to 'กระแสเงินสดจากการดำเนินงาน'.", "set_code": "null"} 
+
+Found 20 Search result candidate
+Total Token Count: 2536
+Input Query: รายได้จากเงินปันผล
+Predicted: {"financial_statement_type": "CF", "item_in_taxonomy": "รับเงินปันผล", "query": "รายได้จากเงินปันผล", "reasoning": "The input query \\\"รายได้จากเงินปันผล\\\" is similar to \\\"รายได้เงินปันผล\\\" and \\\"รับเงินปันผล\\\" in the Taxonomy list. Since the input metadata financial_statement_type is \\\"งบกระแสเงินสด สำหรับงวดหกเดือนสิ้นสุดวันที่ 30 มิถุนายน 2567\\\" and fs_category is \\\"กระแสเงินสดจากการดำเนินงาน\\\", the most relevant item in the Taxonomy list is where financial_statement_type  is 'CF' and fs_category is 'กิจกรรมดำเนินงาน' or use item_in_taxonomy instead of fs_category.", "set_code": "519700"} 
+
+Found 20 Search result candidate
+Total Token Count: 2483
+Input Query: เงินสดรับเงินปันผล
+Predicted: {"financial_statement_type": "CF", "item_in_taxonomy": "รับเงินปันผล", "query": "เงินสดรับเงินปันผล", "reasoning": "The INPUT METADATA states that fs_category is กระแสเงินสดจากการดำเนินงาน. An item in the Taxonomy list with item_in_taxonomy  'รับเงินปันผล' has fs_category 'กิจกรรมดำเนินงาน'.", "set_code": "519700"} 
+
+Found 20 Search result candidate
+Total Token Count: 2754
+Input Query: ค่าใช้จ่ายค้างจ่ายอื่นลดลง
+Predicted: {"financial_statement_type": "CF", "item_in_taxonomy": "เจ้าหนี้ที่เกิดจากภาษีอื่นหรือรายการอื่นภายใต้กฎหมาย เพิ่มขึ้น (ลดลง)", "query": "ค่าใช้จ่ายค้างจ่ายอื่นลดลง", "reasoning": "The most relevant item from the provided taxonomy list is 'เจ้าหนี้ที่เกิดจากภาษีอื่นหรือรายการอื่นภายใต้กฎหมาย เพิ่มขึ้น (ลดลง)' because it closely aligns with the concept of decreasing other accrued expenses. Considering the input 'ค่าใช้จ่ายค้างจ่ายอื่นลดลง' indicates a decrease in liabilities related to other expenses, this taxonomy item accurately reflects the financial activity.", "set_code": "518800"} 
+
+Found 20 Search result candidate
+Total Token Count: 2633
+Input Query: เงินสดจ่ายภาษีเงินได้
+Predicted: {"financial_statement_type": "CF", "item_in_taxonomy": "เงินสดรับ (จ่าย) จากการดำเนินงาน", "query": "เงินสดจ่ายภาษีเงินได้", "reasoning": "The input line item name is related to cash flow from operating activities, and the input metadata specifies 'fs_category' as 'กระแสเงินสดจากการดำเนินงาน'. Although no item in the taxonomy list perfectly matches the input, 'เงินสดรับ (จ่าย) จากการดำเนินงาน' is the closest match as a general category for operating cash flows.", "set_code": "519998"} 
+
+Found 20 Search result candidate
+Total Token Count: 3212
+Input Query: กำไรจากการดำเนินงานก่อนการเปลี่ยนแปลง ในสินทรัพย์และหนี้สินดำเนินงาน
+Predicted: {"financial_statement_type": "CF", "item_in_taxonomy": "กำไร (ขาดทุน) จากการดำเนินงานก่อนการเปลี่ยนแปลงในสินทรัพย์และหนี้สินดำเนินงาน", "query": "กำไรจากการดำเนินงานก่อนการเปลี่ยนแปลง ในสินทรัพย์และหนี้สินดำเนินงาน", "reasoning": "The query matches the item_in_taxonomy \"กำไร (ขาดทุน) จากการดำเนินงานก่อนการเปลี่ยนแปลงในสินทรัพย์และหนี้สินดำเนินงาน\" in the taxonomy list, and the fs_category is กิจกรรมดำเนินงาน, which is related to กระแสเงินสดจากการดำเนินงาน.", "set_code": "519997"} 
+
+Found 20 Search result candidate
+Total Token Count: 2692
+Input Query: รายการระหว่างธนาคารและตลาดเงิน
+Predicted: {"financial_statement_type": "CF", "item_in_taxonomy": "รายการระหว่างธนาคารและตลาดเงิน (เพิ่มขึ้น) ลดลง", "query": "รายการระหว่างธนาคารและตลาดเงิน", "reasoning": "From the Taxonomy list provided, the item 'รายการระหว่างธนาคารและตลาดเงิน (เพิ่มขึ้น) ลดลง' with SET Code '515200' is the most relevant match to the input query 'รายการระหว่างธนาคารและตลาดเงิน'.  Although the fs_category does not directly relate to 'กระแสเงินสดจากการดำเนินงาน', it's the closest match based on the item name.", "set_code": "515200"} 
+
+Found 20 Search result candidate
+Total Token Count: 3051
+Input Query: สินทรัพย์ทางการเงินที่วัดมูลค่าด้วยมูลค่ายุติธรรมผ่านกำไรหรือขาดทุน
+Predicted: {"financial_statement_type": "CF", "item_in_taxonomy": "สินทรัพย์ทางการเงินที่วัดมูลค่าด้วยมูลค่ายุติธรรมผ่านกำไรหรือขาดทุน (เพิ่มขึ้น) ลดลง", "query": "สินทรัพย์ทางการเงินที่วัดมูลค่าด้วยมูลค่ายุติธรรมผ่านกำไรหรือขาดทุน", "reasoning": "The input name is similar to item_in_taxonomy: สินทรัพย์ทางการเงินที่วัดมูลค่าด้วยมูลค่ายุติธรรมผ่านกำไรหรือขาดทุน (เพิ่มขึ้น) ลดลง and the fs_category is related to กระแสเงินสดจากการดำเนินงาน", "set_code": "515300"} 
+
+Found 20 Search result candidate
+Total Token Count: 2780
+Input Query: เงินให้สินเชื่อแก่ลูกหนี้
+Predicted: {"financial_statement_type": "CF", "item_in_taxonomy": "เงินให้สินเชื่อแก่ลูกหนี้ (เพิ่มขึ้น) ลดลง", "query": "เงินให้สินเชื่อแก่ลูกหนี้", "reasoning": "The most relevant item from the provided taxonomy list is 'เงินให้สินเชื่อแก่ลูกหนี้ (เพิ่มขึ้น) ลดลง' with SET Code '515800' because the input query 'เงินให้สินเชื่อแก่ลูกหนี้' matches the item's description. This item's fs_category is 'กิจกรรมดำเนินงาน', which aligns with the input metadata 'กระแสเงินสดจากการดำเนินงาน'.", "set_code": "515800"} 
+
+Found 20 Search result candidate
+Total Token Count: 2674
+Input Query: ทรัพย์สินรอการขาย
+Predicted: {"financial_statement_type": "CF", "item_in_taxonomy": "ทรัพย์สินรอการขาย (เพิ่มขึ้น) ลดลง", "query": "ทรัพย์สินรอการขาย", "reasoning": "The input item name is ทรัพย์สินรอการขาย and financial_statement_type is งบกระแสเงินสด.  The closest matching item considering the fs_category is ทรัพย์สินรอการขาย (เพิ่มขึ้น) ลดลง from the taxonomy list. Therefore, the selected SET Code is 516400 and Item in Taxonomy is ทรัพย์สินรอการขาย (เพิ่มขึ้น) ลดลง.", "set_code": "516400"} 
+
+Found 20 Search result candidate
+Total Token Count: 2809
+Input Query: สินทรัพย์อื่น
+Predicted: {"financial_statement_type": "CF", "item_in_taxonomy": "สินทรัพย์ดำเนินงานอื่น (เพิ่มขึ้น) ลดลง", "query": "สินทรัพย์อื่น", "reasoning": "The most relevant item in the taxonomy list is 'สินทรัพย์ดำเนินงานอื่น (เพิ่มขึ้น) ลดลง' with SET Code '516600' because the input mentions 'สินทรัพย์อื่น' and the input metadata specifies 'กระแสเงินสดจากการดำเนินงาน' as the fs_category. ", "set_code": "516600"} 
+
+Found 20 Search result candidate
+Total Token Count: 2470
+Input Query: เงินรับฝาก
+Predicted: {"financial_statement_type": "CF", "item_in_taxonomy": "เงินรับฝาก เพิ่มขึ้น (ลดลง)", "query": "เงินรับฝาก", "reasoning": "The INPUT METADATA states that fs_category is กระแสเงินสดจากการดำเนินงาน. \nSearching for this value in the CONTEXT, we identify the item with set_code '516800' and item_in_taxonomy 'เงินรับฝาก เพิ่มขึ้น (ลดลง)' as the most relevant match.", "set_code": "516800"} 
+
+Found 20 Search result candidate
+Total Token Count: 2673
+Input Query: รายการระหว่างธนาคารและตลาดเงิน
+Predicted: {"financial_statement_type": "CF", "item_in_taxonomy": "รายการระหว่างธนาคารและตลาดเงิน (เพิ่มขึ้น) ลดลง", "query": "รายการระหว่างธนาคารและตลาดเงิน", "reasoning": "The input item name matches exactly with the item in the taxonomy list.  The fs_category value from the input metadata matches the fs_category value in the taxonomy list. Therefore, the correct SET Code is 515200 and the item in the taxonomy is รายการระหว่างธนาคารและตลาดเงิน (เพิ่มขึ้น) ลดลง", "set_code": "515200"} 
+
+Found 20 Search result candidate
+Total Token Count: 2806
+Input Query: หนี้สินจ่ายคืนเมื่อทวงถาม
+Predicted: {"financial_statement_type": "CF", "item_in_taxonomy": "หนี้สินจ่ายคืนเมื่อทวงถาม เพิ่มขึ้น (ลดลง)", "query": "หนี้สินจ่ายคืนเมื่อทวงถาม", "reasoning": "The most relevant item from the provided taxonomy list is 'หนี้สินจ่ายคืนเมื่อทวงถาม เพิ่มขึ้น (ลดลง)' because it directly corresponds to the input query, 'หนี้สินจ่ายคืนเมื่อทวงถาม'.", "set_code": "517000"} 
+
+Found 20 Search result candidate
+Total Token Count: 2659
+Input Query: หนี้สินอื่น
+Predicted: {"financial_statement_type": "CF", "item_in_taxonomy": "หนี้สินดำเนินงานอื่น เพิ่มขึ้น (ลดลง)", "query": "หนี้สินอื่น", "reasoning": "The input 'หนี้สินอื่น' is related to other liabilities. The input metadata specifies 'งบกระแสเงินสด' (Cash Flow Statement) and 'กระแสเงินสดจากการดำเนินงาน' (Cash Flow from Operating Activities). Thus, the most relevant item in the taxonomy is 'หนี้สินดำเนินงานอื่น เพิ่มขึ้น (ลดลง)' (Increase (Decrease) In Other Operating Liabilities) with SET Code '518300'.", "set_code": "518300"} 
+
+Found 20 Search result candidate
+Total Token Count: 2408
+Input Query: เงินสดสุทธิจากกิจกรรมดำเนินงาน
+Predicted: {"financial_statement_type": "CF", "item_in_taxonomy": "เงินสดสุทธิจากกิจกรรมดำเนินงาน", "query": "เงินสดสุทธิจากกิจกรรมดำเนินงาน", "reasoning": "The INPUT METADATA states that fs_category is กระแสเงินสดจากการดำเนินงาน. An item in the Taxonomy list with fs_category related to กระแสเงินสดจากการดำเนินงาน and the same item_in_taxonomy as the INPUT was found.", "set_code": "510000"} 
+
+Found 20 Search result candidate
+Total Token Count: 2594
+Input Query: เงินสดรับจากการจำหน่ายเงินลงทุนในหลักทรัพย์
+Predicted: {"financial_statement_type": "CF", "item_in_taxonomy": "เงินสดรับจากการจำหน่ายเงินลงทุน", "query": "เงินสดรับจากการจำหน่ายเงินลงทุนในหลักทรัพย์", "reasoning": "The most relevant item from the provided taxonomy list is 'เงินสดรับจากการจำหน่ายเงินลงทุน' with SET Code '520210' because the input query specifically mentions 'เงินสดรับจากการจำหน่ายเงินลงทุน' and the fs_category is 'กิจกรรมลงทุน' which is related to the input metadata 'กระแสเงินสดจากกิจกรรมลงทุน'.", "set_code": "520210"} 
+
+Found 20 Search result candidate
+Total Token Count: 2592
+Input Query: เงินสดจ่ายจากการซื้อเงินลงทุนในหลักทรัพย์
+Predicted: {"financial_statement_type": "CF", "item_in_taxonomy": "เงินสดจ่ายซื้อเงินลงทุน", "query": "เงินสดจ่ายจากการซื้อเงินลงทุนในหลักทรัพย์", "reasoning": "The INPUT, financial statement type and fs_category were used to find the most relevant item in the Taxonomy list. ", "set_code": "520300"} 
+
+Found 20 Search result candidate
+Total Token Count: 2871
+Input Query: เงินสดจ่ายเพื่อลงทุนในบริษัทย่อย
+Predicted: {"financial_statement_type": "CF", "item_in_taxonomy": "เงินสดจ่ายซื้อเงินลงทุนในบริษัทย่อย บริษัทร่วม และการร่วมค้า", "query": "เงินสดจ่ายเพื่อลงทุนในบริษัทย่อย", "reasoning": "The input query 'เงินสดจ่ายเพื่อลงทุนในบริษัทย่อย' matches closely with the item 'เงินสดจ่ายซื้อเงินลงทุนในบริษัทย่อย บริษัทร่วม และการร่วมค้า' in the taxonomy list. Both refer to cash outflow for investment in subsidiaries. The financial statement type 'งบกระแสเงินสด สำหรับงวดหกเดือนสิ้นสุดวันที่ 30 มิถุนายน 2567' and fs_category 'กระแสเงินสดจากกิจกรรมลงทุน' from the input metadata also align with the taxonomy item's criteria, further supporting this selection.", "set_code": "521200"} 
+
+Found 20 Search result candidate
+Total Token Count: 2775
+Input Query: เงินสดรับจากเงินปันผลที่ได้รับจากบริษัทย่อยและบริษัทร่วม
+Predicted: {"financial_statement_type": "CF", "item_in_taxonomy": "รับเงินปันผล", "query": "เงินสดรับจากเงินปันผลที่ได้รับจากบริษัทย่อยและบริษัทร่วม", "reasoning": "The input mentions \"เงินสดรับจากเงินปันผล\" (cash received from dividends) and it belongs to the fs_category \"กระแสเงินสดจากกิจกรรมลงทุน\" (cash flows from investing activities) which matches the item \"รับเงินปันผล\" (Dividend Received) with the set code 529700 in the taxonomy list.", "set_code": "529700"} 
+
+Found 20 Search result candidate
+Total Token Count: 2757
+Input Query: เงินสดรับจากการขายที่ดิน อาคารและอุปกรณ์
+Predicted: {"financial_statement_type": "CF", "item_in_taxonomy": "เงินสดรับจากการขายสินทรัพย์ถาวร ที่ดิน อาคาร และอุปกรณ์", "query": "เงินสดรับจากการขายที่ดิน อาคารและอุปกรณ์", "reasoning": "The input item name 'เงินสดรับจากการขายที่ดิน อาคารและอุปกรณ์' is similar to the item 'เงินสดรับจากการขายสินทรัพย์ถาวร ที่ดิน อาคาร และอุปกรณ์' in the provided taxonomy list.  The fs_category in input metadata 'กระแสเงินสดจากกิจกรรมลงทุน' is matched with the fs_category 'กิจกรรมลงทุน' in the taxonomy list. Thus, the set code '521610' and item in taxonomy 'เงินสดรับจากการขายสินทรัพย์ถาวร ที่ดิน อาคาร และอุปกรณ์' are selected.", "set_code": "521610"} 
+
+Found 20 Search result candidate
+Total Token Count: 2799
+Input Query: เงินสดจ่ายในการซื้อที่ดิน อาคารและอุปกรณ์
+Predicted: {"financial_statement_type": "CF", "item_in_taxonomy": "เงินสดจ่ายจากการซื้อสินทรัพย์ถาวร ที่ดิน อาคาร และอุปกรณ์", "query": "เงินสดจ่ายในการซื้อที่ดิน อาคารและอุปกรณ์", "reasoning": "The INPUT METADATA states that the financial_statement_type is งบกระแสเงินสด สำหรับงวดหกเดือนสิ้นสุดวันที่ 30 มิถุนายน 2567 and fs_category is กระแสเงินสดจากกิจกรรมลงทุน. Based on the provided context, the appropriate item_in_taxonomy is \"เงินสดจ่ายจากการซื้อสินทรัพย์ถาวร ที่ดิน อาคาร และอุปกรณ์\" with SET Code \"521710\".", "set_code": "521710"} 
+
+Found 20 Search result candidate
+Total Token Count: 2676
+Input Query: เงินสดจ่ายเพื่อซื้อสินทรัพย์ไม่มีตัวตน
+Predicted: {"financial_statement_type": "CF", "item_in_taxonomy": "เงินสดจ่ายจากการซื้อสินทรัพย์ถาวร สินทรัพย์ไม่มีตัวตน", "query": "เงินสดจ่ายเพื่อซื้อสินทรัพย์ไม่มีตัวตน", "reasoning": "The input mentions outflow of cash related to the acquisition of intangible assets. This aligns with the item 'เงินสดจ่ายจากการซื้อสินทรัพย์ถาวร สินทรัพย์ไม่มีตัวตน' in the taxonomy, which falls under the category 'กิจกรรมลงทุน' matching the input metadata 'กระแสเงินสดจากกิจกรรมลงทุน'.", "set_code": "521720"} 
+
+Found 20 Search result candidate
+Total Token Count: 2407
+Input Query: เงินสดสุทธิจากกิจกรรมลงทุน
+Predicted: {"financial_statement_type": "CF", "item_in_taxonomy": "เงินสดสุทธิจากกิจกรรมลงทุน", "query": "เงินสดสุทธิจากกิจกรรมลงทุน", "reasoning": "The input line item name is เงินสดสุทธิจากกิจกรรมลงทุน and fs_category is กระแสเงินสดจากกิจกรรมลงทุน.  The Taxonomy list item with item_in_taxonomy = เงินสดสุทธิจากกิจกรรมลงทุน and fs_category = กิจกรรมลงทุน matches the input query and fs_category after normalization.", "set_code": "520000"} 
+
+Found 20 Search result candidate
+Total Token Count: 2798
+Input Query: เงินสดรับจากเงินกู้ยืมและการออกตราสารหนี้
+Predicted: {"financial_statement_type": "CF", "item_in_taxonomy": "เงินสดรับจากตราสารหนี้ที่ออกและเงินกู้ยืม", "query": "เงินสดรับจากเงินกู้ยืมและการออกตราสารหนี้", "reasoning": "The most relevant item from the taxonomy list is \"เงินสดรับจากตราสารหนี้ที่ออกและเงินกู้ยืม\" under the fs_category \"กิจกรรมจัดหาเงิน\" which matches the input query and financial statement type.", "set_code": "530620"} 
+
+Found 20 Search result candidate
+Total Token Count: 2827
+Input Query: เงินสดจ่ายชำระคืนเงินกู้ยืมและตราสารหนี้
+Predicted: {"financial_statement_type": "CF", "item_in_taxonomy": "เงินสดจ่ายชำระคืนตราสารหนี้ที่ออกและเงินกู้ยืม", "query": "เงินสดจ่ายชำระคืนเงินกู้ยืมและตราสารหนี้", "reasoning": "The input mentions เงินสดจ่ายชำระคืน which implies cash outflow related to debt. The most relevant item from the taxonomy list is เงินสดจ่ายชำระคืนตราสารหนี้ที่ออกและเงินกู้ยืม under the fs_category กิจกรรมจัดหาเงิน.", "set_code": "530610"} 
+
+Found 20 Search result candidate
+Total Token Count: 2789
+Input Query: เงินสดจ่ายชำระหนี้สินตามสัญญาเช่า
+Predicted: {"financial_statement_type": "CF", "item_in_taxonomy": "เงินสดจ่ายชำระหนี้สินตามสัญญาเช่า", "query": "เงินสดจ่ายชำระหนี้สินตามสัญญาเช่า", "reasoning": "The query 'เงินสดจ่ายชำระหนี้สินตามสัญญาเช่า' from financial_statement_type 'งบกระแสเงินสด สำหรับงวดหกเดือนสิ้นสุดวันที่ 30 มิถุนายน 2567' with fs_category 'กระแสเงินสดจากกิจกรรมจัดหาเงิน' matches exactly with item_in_taxonomy 'เงินสดจ่ายชำระหนี้สินตามสัญญาเช่า' in the taxonomy list. Thus, the set_code is '530500'.", "set_code": "530500"} 
+
+Found 20 Search result candidate
+Total Token Count: 2436
+Input Query: เงินปันผลจ่าย
+Predicted: {"financial_statement_type": "CF", "item_in_taxonomy": "จ่ายเงินปันผล", "query": "เงินปันผลจ่าย", "reasoning": "The input query 'เงินปันผลจ่าย' is related to dividend payment. \nThe input metadata specifies 'กระแสเงินสดจากกิจกรรมจัดหาเงิน' as fs_category, which means 'Cash flows from financing activities'.\nIn the taxonomy list, the item 'จ่ายเงินปันผล' with set code '539800' matches the input query and fs_category. ", "set_code": "539800"} 
+
+Found 20 Search result candidate
+Total Token Count: 2409
+Input Query: เงินสดสุทธิจากกิจกรรมจัดหาเงิน
+Predicted: {"financial_statement_type": "CF", "item_in_taxonomy": "เงินสดสุทธิจากกิจกรรมจัดหาเงิน", "query": "เงินสดสุทธิจากกิจกรรมจัดหาเงิน", "reasoning": "From the Taxonomy list, found item 'เงินสดสุทธิจากกิจกรรมจัดหาเงิน' with fs_category 'กิจกรรมจัดหาเงิน' which is related to the input metadata fs_category 'กระแสเงินสดจากกิจกรรมจัดหาเงิน'.", "set_code": "530000"} 
+
+Found 20 Search result candidate
+Total Token Count: 2788
+Input Query: รวม
+Predicted: {"financial_statement_type": "CF", "item_in_taxonomy": "รายการอื่น ๆ (กิจกรรมจัดหาเงิน)", "query": "รวม", "reasoning": "The INPUT's fs_category is รายการอื่น ๆ and financial_statement_type is งบกระแสเงินสด.  So the closest matched item in Taxonomy is  รายการอื่น ๆ (กิจกรรมจัดหาเงิน) and set code 539900", "set_code": "539900"} 
+
+Found 20 Search result candidate
+Total Token Count: 2712
+Input Query: ผลกระทบจากการแปลงค่างบการเงินจากการดำเนินงานในต่างประเทศ
+Predicted: {"financial_statement_type": "CF", "item_in_taxonomy": "ผลต่างจากอัตราแลกเปลี่ยนจากการแปลงค่างบการเงิน", "query": "ผลกระทบจากการแปลงค่างบการเงินจากการดำเนินงานในต่างประเทศ", "reasoning": "The query mentions converting financial statements from foreign operations, which closely relates to the concept of foreign currency translation. Therefore, the closest match from the taxonomy list is \"ผลต่างจากอัตราแลกเปลี่ยนจากการแปลงค่างบการเงิน\" (Differences Of Foreign Currency Exchange On Financial Statements Translation).", "set_code": "540200"} 
+
+Found 20 Search result candidate
+Total Token Count: 2734
+Input Query: ผลกระทบของการเปลี่ยนแปลงในอัตราแลกเปลี่ยนที่มีต่อเงินสด
+Predicted: {"financial_statement_type": "CF", "item_in_taxonomy": "ผลกระทบจากการเปลี่ยนแปลงในอัตราแลกเปลี่ยนที่มีต่อเงินสด", "query": "ผลกระทบของการเปลี่ยนแปลงในอัตราแลกเปลี่ยนที่มีต่อเงินสด", "reasoning": "The query \\\"ผลกระทบของการเปลี่ยนแปลงในอัตราแลกเปลี่ยนที่มีต่อเงินสด\\\" best matches the item \\\"ผลกระทบจากการเปลี่ยนแปลงในอัตราแลกเปลี่ยนที่มีต่อเงินสด\\\" in the provided taxonomy list. Although no exact match for fs_category \\\"รายการอื่น ๆ\\\", we prioritize matching the 'item_in_taxonomy' due to the instruction. This item belongs to the financial statement type 'CF'.", "set_code": "540100"} 
+
+Found 20 Search result candidate
+Total Token Count: 2795
+Input Query: เงินสดและรายการเทียบเท่าเงินสดเพิ่มขึ้น (ลดลง) สุทธิ
+Predicted: {"financial_statement_type": "CF", "item_in_taxonomy": "เงินสด เพิ่มขึ้น (ลดลง) สุทธิ", "query": "เงินสดและรายการเทียบเท่าเงินสดเพิ่มขึ้น (ลดลง) สุทธิ", "reasoning": "The query mentions both 'เงินสด' and 'เพิ่มขึ้น (ลดลง)' which closely match the item 'เงินสด เพิ่มขึ้น (ลดลง) สุทธิ' in the taxonomy. Considering the fs_category from input metadata 'รายการอื่น ๆ'  is not directly related to any fs_category in the taxonomy, we prioritize matching the 'item_in_taxonomy' instead.", "set_code": "509999"} 
+
+Found 20 Search result candidate
+Total Token Count: 2825
+Input Query: เงินสดและรายการเทียบเท่าเงินสด ณ วันที่ 1 มกราคม
+Predicted: {"financial_statement_type": "CF", "item_in_taxonomy": "เงินสดและรายการเทียบเท่าเงินสด ต้นงวด", "query": "เงินสดและรายการเทียบเท่าเงินสด ณ วันที่ 1 มกราคม", "reasoning": "The query mentions 'เงินสดและรายการเทียบเท่าเงินสด' and the beginning of a period (ณ วันที่ 1 มกราคม), indicating a beginning balance. The closest match in the taxonomy list is 'เงินสดและรายการเทียบเท่าเงินสด ต้นงวด' which falls under the 'รายการอื่น ๆ' category in the financial statement.", "set_code": "599998"} 
+
+Found 20 Search result candidate
+Total Token Count: 2775
+Input Query: เงินสดและรายการเทียบเท่าเงินสด ณ วันที่ 30 มิถุนายน
+Predicted: {"financial_statement_type": "CF", "item_in_taxonomy": "เงินสดและรายการเทียบเท่าเงินสด สิ้นงวด", "query": "เงินสดและรายการเทียบเท่าเงินสด ณ วันที่ 30 มิถุนายน", "reasoning": "The query mentions 'เงินสดและรายการเทียบเท่าเงินสด' and the financial statement type is 'งบกระแสเงินสด' which implies an ending balance. Thus, the closest match from the taxonomy list is 'เงินสดและรายการเทียบเท่าเงินสด สิ้นงวด'.", "set_code": "599999"} 
+
+
+
+ขอข้อมูล Q2/2024 6 บจ. นี้ครับ
+BAY
+JMT
+MFC
+TSI
+MJLF
+SCC
+
+
+
+
+
+account_name
+taxonomy_account_name
+account_code_consolidatedAcc
+account_code_unconsolidatedAcc
+values
+
+
+"BAY", "JMT", "MFC", "TSI", "MJLF", "SCC", "BAM", "SCB", "AIRA", "SAWAD", "KGI", "MST", "MTI", "TIPH", "FTREIT", "BKKCP", "BTS", "TKN"

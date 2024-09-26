@@ -1,0 +1,158 @@
+##### Prompt ตอนแกะตาราง 
+On a given financial report data extracted from an excel file as CONTEXT, extract the data by follow instructions.
+
+<INSTRUCTIONS>
+- You must use data only from CONTEXT
+- Use original language from CONTEXT
+- Extract all tables information to JSON format
+</INSTRUCTIONS>
+
+<CONTEXT>
+{parsed_xlsx}
+</CONTEXT>
+
+Output in JSON:
+
+
+
+
+
+
+##### Response Schema ตอนแกะตาราง
+tables_schema = {
+  "type": "ARRAY",
+  "items": {
+    "description": "Represents financial statement data.",
+    "type": "OBJECT",
+    "required": ["table_number", "table", "date", "headers", "currency_unit", "data"],
+    "properties": {
+      "table_number": {
+        "description": "Sequence number of the table appeared from the source.",
+        "type": "STRING"
+      },
+      "table": {
+        "description": """The name of the financial statement in single line format.
+        Example:
+        - ["งบฐานะการเงินรวม", "งบกำไรขาดทุนรวมสำหรับงวดสามเดือน", "งบกำไรขาดทุนเบ็ดเสร็จรวมสำหรับงวดสามเดือน", "งบกำไรขาดทุนรวมสำหรับงวดหกเดือน", "งบกำไรขาดทุนเบ็ดเสร็จรวมสำหรับงวดหกเดือน", "งบการเปลี่ยนแปลงส่วนของผู้ถือหุ้นรวม", "งบกระแสเงินสดรวมสำหรับงวด"]
+        """,
+        "type": "STRING"
+      },
+      "date": {
+        "description": "The date on which the financial statement is prepared.",
+        "type": "STRING"
+      },
+      "headers": {
+        "description": """Column headers for the financial data in single line format.
+        Example:
+        - ["สินทรัพย์", "หนี้สินและส่วนของผู้ถือหุ้น หนี้สินหมุนเวียน", "หนี้สินและส่วนของผู้ถือหุ้น ส่วนของผู้ถือหุ้น", "30 มิถุนายน 2567 (ไม่ได้ตรวจสอบ) (พันบาท)", "31 ธันวาคม 2566 (พันบาท)", "2567 (พันบาท)", "2566 (พันบาท)"]
+        """,
+        "type": "ARRAY",
+        "items": {
+          "type": "STRING"
+        }
+      },
+      "currency_unit": {
+        "description": "The currency in which the financial data is expressed.",
+        "type": "STRING"
+      },
+    }
+  }
+}
+
+
+
+
+
+
+##### Prompt ตอนแกะแต่ละ Item ในตาราง
+On a given financial report data extracted from an excel file as CONTEXT, extract the data by follow instructions.
+
+<INSTRUCTIONS>
+- You must use data only from CONTEXT
+- Use original language from CONTEXT
+- Extract the table {table_info} data to JSON format
+- Use table_number and headers in {table_info} to extract each table and each item in table accordingly
+</INSTRUCTIONS>
+
+<CONTEXT>
+{parsed_xlsx}
+</CONTEXT>
+
+Output in JSON:
+
+
+
+
+
+
+##### Response Schema ตอนแกะ Item ในตาราง
+response_schema = {
+  "type": "ARRAY",
+  "items": {
+    "description": "Represents financial statement data.",
+    "type": "OBJECT",
+    "required": ["table", "date", "headers", "currency_unit", "data"],
+    "properties": {
+      "table": {
+        "description": "The name of the financial statement in single line format.",
+        "type": "STRING"
+      },
+      "date": {
+        "description": "The date on which the financial statement is prepared.",
+        "type": "STRING"
+      },
+      "headers": {
+        "description": """Column headers for the financial data in single line format.
+        Example:
+        - ["สินทรัพย์", "หนี้สินและส่วนของผู้ถือหุ้น หนี้สินหมุนเวียน", "หนี้สินและส่วนของผู้ถือหุ้น ส่วนของผู้ถือหุ้น", "30 มิถุนายน 2567 (ไม่ได้ตรวจสอบ) (พันบาท)", "31 ธันวาคม 2566 (พันบาท)", "2567 (พันบาท)", "2566 (พันบาท)"]
+        """,
+        "type": "ARRAY",
+        "items": {
+          "type": "STRING"
+        }
+      },
+      "currency_unit": {
+        "description": "The currency in which the financial data is expressed.",
+        "type": "STRING"
+      },
+      "data": {
+        "description": "The financial data itself.",
+        "type": "ARRAY",
+        "items": {
+          "type": "OBJECT",
+          "properties": {
+            "category": {
+              "description": "The category or account name.",
+              "type": "STRING"
+            },
+            "items": {
+              "description": "Line items within a category.",
+              "type": "ARRAY",
+              "items": {
+                "type": "OBJECT",
+                "required": ["name", "values"],
+                "properties": {
+                  "name": {
+                    "description": "The name of the line item.",
+                    "type": "STRING"
+                  },
+                  "note": {
+                    "description": "Reference to a footnote for additional information.",
+                    "type": "STRING"
+                  },
+                  "values": {
+                    "description": "The financial values for each header.",
+                    "type": "ARRAY",
+                    "items": {
+                      "type": "NUMBER"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

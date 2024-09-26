@@ -1,0 +1,80 @@
+Input Query: เงินสดและรายการเทียบเท่าเงินสด
+Predicted: {"financial_statement_type": "BS_A", "item_in_taxonomy": "เงินสดและรายการเทียบเท่าเงินสด", "query": "เงินสดและรายการเทียบเท่าเงินสด", "reasoning": "The query directly matches the item \"เงินสดและรายการเทียบเท่าเงินสด\" in the provided taxonomy list, and the fs_category also matches.", "set_code": "110100"} 
+
+Input Query: เงินลงทุนในตราสารหนี้ระยะสั้น
+Predicted: {"financial_statement_type": "BS_A", "item_in_taxonomy": "เงินลงทุนระยะสั้น - สุทธิ", "query": "เงินลงทุนในตราสารหนี้ระยะสั้น", "reasoning": "The query mentions shorter than 1 year investment duration, focusing on debt instruments. This aligns with the broader category of \"เงินลงทุนระยะสั้น - สุทธิ\" (Short-term Investments - Net) within the financial statements.", "set_code": "UNNESSEARY"} 
+
+Input Query: ลูกหนี้การค้าและลูกหนี้หมุนเวียนอื่น
+Predicted: {"financial_statement_type": "BS_A", "item_in_taxonomy": "ลูกหนี้การค้าและลูกหนี้หมุนเวียนอื่น - สุทธิ", "query": "ลูกหนี้การค้าและลูกหนี้หมุนเวียนอื่น", "reasoning": "Found item in taxonomy ลูกหนี้การค้าและลูกหนี้หมุนเวียนอื่น - สุทธิ with fs_category สินทรัพย์หมุนเวียน which is similar to สินทรัพย์หมุนเวียน", "set_code": "112000"} 
+
+Input Query: เงินให้กู้ยืมระยะสั้น
+Predicted: {"financial_statement_type": "BS_A", "item_in_taxonomy": "เงินให้กู้ยืมระยะสั้นและดอกเบี้ยค้างรับ", "query": "เงินให้กู้ยืมระยะสั้น", "reasoning": "The query mentions \"เงินให้กู้ยืมระยะสั้น\" which directly corresponds to the item \"เงินให้กู้ยืมระยะสั้นและดอกเบี้ยค้างรับ\" in the provided taxonomy list. Therefore, this is the most appropriate match.", "set_code": "112300"} 
+
+Input Query: สินค้าคงเหลือ
+Predicted: {"financial_statement_type": "BS_A", "item_in_taxonomy": "สินค้าคงเหลือ - สุทธิ", "query": "สินค้าคงเหลือ", "reasoning": "The query mentions สินค้าคงเหลือ which directly corresponds to the item_in_taxonomy สินค้าคงเหลือ - สุทธิ in the provided taxonomy list. Therefore, the set_code 112900 is used.", "set_code": "112900"} 
+
+Input Query: สินทรัพย์หมุนเวียนอื่น
+Predicted: {"financial_statement_type": "BS_A", "item_in_taxonomy": "สินทรัพย์หมุนเวียนอื่น", "query": "สินทรัพย์หมุนเวียนอื่น", "reasoning": "The query directly matches the item \"สินทรัพย์หมุนเวียนอื่น\" in the taxonomy list, and the fs_category also aligns with \"สินทรัพย์หมุนเวียน\".", "set_code": "119900"} 
+
+Input Query: สินทรัพย์ไม่หมุนเวียนที่จัดประเภทเป็นสินทรัพย์ที่ถือไว้เพื่อขาย
+Predicted: {"financial_statement_type": "BS_A", "item_in_taxonomy": "สินทรัพย์ไม่หมุนเวียน และ/หรือ กลุ่มสินทรัพย์ที่ยกเลิกซึ่งถือไว้เพื่อขาย", "query": "สินทรัพย์ไม่หมุนเวียนที่จัดประเภทเป็นสินทรัพย์ที่ถือไว้เพื่อขาย", "reasoning": "The query mentions an asset classified as held for sale. In the provided taxonomy list, the closest match is 'สินทรัพย์ไม่หมุนเวียน และ/หรือ กลุ่มสินทรัพย์ที่ยกเลิกซึ่งถือไว้เพื่อขาย' which refers to non-current assets or disposal groups classified as held for sale. Therefore, this item best represents the input query.", "set_code": "114700"} 
+
+Input Query: เงินลงทุนในตราสารหนี้
+Predicted: {"financial_statement_type": "BS_A", "item_in_taxonomy": "เงินลงทุนในตราสารหนี้ที่วัดมูลค่าด้วยมูลค่ายุติธรรมผ่านกำไรขาดทุน", "query": "เงินลงทุนในตราสารหนี้", "reasoning": "The most relevant item from the provided taxonomy list is 'เงินลงทุนในตราสารหนี้ที่วัดมูลค่าด้วยมูลค่ายุติธรรมผ่านกำไรขาดทุน' because it directly refers to investments in debt instruments. Although the input doesn't specify the valuation method or holding period, this item encompasses various scenarios of debt instrument investments.", "set_code": "121610"} 
+
+Input Query: เงินลงทุนในตราสารทุน
+Predicted: {"financial_statement_type": "BS_A", "item_in_taxonomy": "เงินลงทุนในตราสารทุนที่วัดมูลค่าด้วยมูลค่ายุติธรรมผ่านกำไรขาดทุน", "query": "เงินลงทุนในตราสารทุน", "reasoning": "The query mentions  'เงินลงทุนในตราสารทุน' which is a broader term and does not specify the duration of the investment. Therefore, we can not determine if it's short-term or long-term and should refrain from assigning a specific SET Code.", "set_code": "UNNESSEARY"} 
+
+Input Query: เงินลงทุนในการร่วมค้าและบริษัทร่วม
+Predicted: {"financial_statement_type": "BS_A", "item_in_taxonomy": "เงินลงทุนในบริษัทย่อย บริษัทร่วม และการร่วมค้า ที่บันทึกโดยวิธีส่วนได้เสีย - สุทธิ", "query": "เงินลงทุนในการร่วมค้าและบริษัทร่วม", "reasoning": "The query asks for investment in joint ventures and associated companies. \nThe most relevant item in the taxonomy is \"เงินลงทุนในบริษัทย่อย บริษัทร่วม และการร่วมค้า ที่บันทึกโดยวิธีส่วนได้เสีย - สุทธิ\" which means Investment in subsidiaries, associates and joint ventures accounted for using the equity method - net.", "set_code": "122600"} 
+
+Input Query: เงินให้กู้ยืมระยะยาว
+Predicted: {"financial_statement_type": "BS_A", "item_in_taxonomy": "เงินให้กู้ยืมระยะยาวและดอกเบี้ยค้างรับ - ส่วนที่ถึงกำหนดชำระเกินกว่าหนึ่งปี", "query": "เงินให้กู้ยืมระยะยาว", "reasoning": "The most relevant item from the provided taxonomy list is  'เงินให้กู้ยืมระยะยาวและดอกเบี้ยค้างรับ - ส่วนที่ถึงกำหนดชำระเกินกว่าหนึ่งปี' because the input query explicitly mentions 'เงินให้กู้ยืมระยะยาว'.", "set_code": "122400"} 
+
+Input Query: อสังหาริมทรัพย์เพื่อการลงทุน
+Predicted: {"financial_statement_type": "BS_A", "item_in_taxonomy": "อสังหาริมทรัพย์เพื่อการลงทุน - สุทธิ", "query": "อสังหาริมทรัพย์เพื่อการลงทุน", "reasoning": "The query directly matches the item 'อสังหาริมทรัพย์เพื่อการลงทุน - สุทธิ' in the provided taxonomy list, and the fs_category value confirms the appropriate category.", "set_code": "123700"} 
+
+Input Query: ที่ดิน อาคารและอุปกรณ์
+Predicted: {"financial_statement_type": "BS_A", "item_in_taxonomy": "ที่ดิน อาคาร และอุปกรณ์ - สุทธิ", "query": "ที่ดิน อาคารและอุปกรณ์", "reasoning": "The input query 'ที่ดิน อาคารและอุปกรณ์' directly matches the 'item_in_taxonomy' value 'ที่ดิน อาคาร และอุปกรณ์ - สุทธิ' in the provided taxonomy list. Therefore, this is a straightforward mapping.", "set_code": "123800"} 
+
+Input Query: ค่าความนิยม
+Predicted: {"financial_statement_type": "BS_A", "item_in_taxonomy": "ค่าความนิยม - สุทธิ", "query": "ค่าความนิยม", "reasoning": "The query 'ค่าความนิยม' directly matches the 'item_in_taxonomy' 'ค่าความนิยม - สุทธิ' in the provided taxonomy list. Therefore, this is a direct match, and the corresponding 'set_code' is '124200'.", "set_code": "124200"} 
+
+Input Query: สินทรัพย์ไม่มีตัวตนอื่น
+Predicted: {"financial_statement_type": "BS_A", "item_in_taxonomy": "สินทรัพย์ไม่มีตัวตน - สุทธิ สินทรัพย์ไม่มีตัวตน - อื่น ๆ", "query": "สินทรัพย์ไม่มีตัวตนอื่น", "reasoning": "The query mentions สินทรัพย์ไม่มีตัวตนอื่น, which most closely corresponds to the item สินทรัพย์ไม่มีตัวตน - สุทธิ สินทรัพย์ไม่มีตัวตน - อื่น ๆ in the provided taxonomy list. Therefore, this item is selected.", "set_code": "124190"} 
+
+Input Query: สินทรัพย์ภาษีเงินได้รอการตัดบัญชี
+Predicted: {"financial_statement_type": "BS_A", "item_in_taxonomy": "สินทรัพย์ภาษีเงินได้รอตัดบัญชี", "query": "สินทรัพย์ภาษีเงินได้รอการตัดบัญชี", "reasoning": "The query mentions สินทรัพย์ภาษีเงินได้รอการตัดบัญชี, which directly matches the item 'สินทรัพย์ภาษีเงินได้รอตัดบัญชี' in the taxonomy. Additionally, this item falls under the 'สินทรัพย์ไม่หมุนเวียน' category as specified in the instructions.", "set_code": "124400"} 
+
+Input Query: สินทรัพย์ไม่หมุนเวียนอื่น
+Predicted: {"financial_statement_type": "BS_A", "item_in_taxonomy": "สินทรัพย์ไม่หมุนเวียนอื่น", "query": "สินทรัพย์ไม่หมุนเวียนอื่น", "reasoning": "The query directly matches the item \"สินทรัพย์ไม่หมุนเวียนอื่น\" in the taxonomy list. Therefore, this item is a suitable match.", "set_code": "129900"} 
+
+Input Query: เงินเบิกเกินบัญชีและเงินกู้ยืมระยะสั้นจากสถาบันการเงิน
+Predicted: {"financial_statement_type": "BS_L", "item_in_taxonomy": "เงินเบิกเกินบัญชีและเงินกู้ยืมระยะสั้นจากสถาบันการเงิน", "query": "เงินเบิกเกินบัญชีและเงินกู้ยืมระยะสั้นจากสถาบันการเงิน", "reasoning": "The query directly matches the item \"เงินเบิกเกินบัญชีและเงินกู้ยืมระยะสั้นจากสถาบันการเงิน\" in the provided taxonomy list. Therefore, this item is a perfect match.", "set_code": "210500"} 
+
+Input Query: เจ้าหนี้การค้าและเจ้าหนี้หมุนเวียนอื่น
+Predicted: {"financial_statement_type": "BS_L", "item_in_taxonomy": "เจ้าหนี้การค้าและเจ้าหนี้หมุนเวียนอื่น", "query": "เจ้าหนี้การค้าและเจ้าหนี้หมุนเวียนอื่น", "reasoning": "The query directly matches the item 'เจ้าหนี้การค้าและเจ้าหนี้หมุนเวียนอื่น' in the taxonomy list, and this item's fs_category is  'หนี้สินหมุนเวียน' which is similar to the input.", "set_code": "211100"} 
+
+Input Query: ส่วนของเงินกู้ยืมระยะยาวที่ถึงกำหนดชำระภายในหนึ่งปี
+Predicted: {"financial_statement_type": "BS_L", "item_in_taxonomy": "ส่วนของหนี้สินระยะยาวส่วนที่ถึงกำหนดชำระภายในหนึ่งปี", "query": "ส่วนของเงินกู้ยืมระยะยาวที่ถึงกำหนดชำระภายในหนึ่งปี", "reasoning": "The query mentions \"ส่วนของเงินกู้ยืมระยะยาวที่ถึงกำหนดชำระภายในหนึ่งปี\" which closely resembles the item \"ส่วนของหนี้สินระยะยาวส่วนที่ถึงกำหนดชำระภายในหนึ่งปี\" in the taxonomy. Considering the fs_category \"หนี้สินหมุนเวียน\" also aligns with the query's context, this mapping is suitable.", "set_code": "211800"} 
+
+Input Query: ส่วนของหนี้สินตามสัญญาเช่าที่ถึงกำหนดชำระภายในหนึ่งปี
+Predicted: {"financial_statement_type": "BS_L", "item_in_taxonomy": "หนี้สินตามสัญญาเช่า - ส่วนที่ถึงกำหนดชำระภายในหนึ่งปี", "query": "ส่วนของหนี้สินตามสัญญาเช่าที่ถึงกำหนดชำระภายในหนึ่งปี", "reasoning": "The query mentions \"หนี้สินตามสัญญาเช่า\" and \"ถึงกำหนดชำระภายในหนึ่งปี\" which directly corresponds to the item \"หนี้สินตามสัญญาเช่า - ส่วนที่ถึงกำหนดชำระภายในหนึ่งปี\" in the taxonomy. ", "set_code": "212400"} 
+
+Input Query: ส่วนของหุ้นกู้ที่ถึงกำหนดชำระภายในหนึ่งปี
+Predicted: {"financial_statement_type": "BS_L", "item_in_taxonomy": "ส่วนของหนี้สินระยะยาวส่วนที่ถึงกำหนดชำระภายในหนึ่งปี หุ้นกู้", "query": "ส่วนของหุ้นกู้ที่ถึงกำหนดชำระภายในหนึ่งปี", "reasoning": "The query mentions \"หุ้นกู้\" and \"ถึงกำหนดชำระภายในหนึ่งปี\" which directly corresponds to the item \"ส่วนของหนี้สินระยะยาวส่วนที่ถึงกำหนดชำระภายในหนึ่งปี หุ้นกู้\" in the taxonomy. ", "set_code": "211830"} 
+
+Input Query: เงินกู้ยืมระยะสั้น
+Predicted: {"financial_statement_type": "BS_L", "item_in_taxonomy": "เงินกู้ยืมระยะสั้น", "query": "เงินกู้ยืมระยะสั้น", "reasoning": "The query directly maps to the item 'เงินกู้ยืมระยะสั้น' under the 'หนี้สินหมุนเวียน' category in the taxonomy.", "set_code": "211700"} 
+
+Input Query: ภาษีเงินได้นิติบุคคลค้างจ่าย
+Predicted: {"financial_statement_type": "BS_L", "item_in_taxonomy": "ภาษีเงินได้นิติบุคคลค้างจ่าย", "query": "ภาษีเงินได้นิติบุคคลค้างจ่าย", "reasoning": "The query 'ภาษีเงินได้นิติบุคคลค้างจ่าย' directly matches the item 'ภาษีเงินได้นิติบุคคลค้างจ่าย' in the provided taxonomy list.   Therefore, this is a direct match, and no further analysis is needed.", "set_code": "213000"} 
+
+Input Query: หนี้สินหมุนเวียนอื่น
+Predicted: {"financial_statement_type": "BS_L", "item_in_taxonomy": "หนี้สินหมุนเวียนอื่น", "query": "หนี้สินหมุนเวียนอื่น", "reasoning": "The query directly matches the item \"หนี้สินหมุนเวียนอื่น\" in the taxonomy list, and the fs_category in the taxonomy list matched the condition.", "set_code": "219900"} 
+
+Input Query: เงินกู้ยืมระยะยาว
+Predicted: {"financial_statement_type": "BS_L", "item_in_taxonomy": "หนี้สินระยะยาว - ส่วนที่ถึงกำหนดชำระเกินกว่าหนึ่งปี", "query": "เงินกู้ยืมระยะยาว", "reasoning": "The query mentions 'เงินกู้ยืมระยะยาว' which is similar to the description of 'หนี้สินระยะยาว - ส่วนที่ถึงกำหนดชำระเกินกว่าหนึ่งปี' in the taxonomy. Considering the nature of long-term loans, it's categorized under 'หนี้สินไม่หมุนเวียน'.", "set_code": "221800"} 
+
+Input Query: หนี้สินตามสัญญาเช่า
+Predicted: {"financial_statement_type": "BS_L", "item_in_taxonomy": "หนี้สินตามสัญญาเช่า - ส่วนที่ถึงกำหนดชำระเกินกว่าหนึ่งปี", "query": "หนี้สินตามสัญญาเช่า", "reasoning": "The query mentions 'หนี้สินตามสัญญาเช่า' which maps to the fs_category 'หนี้สินไม่หมุนเวียน' in the taxonomy. Therefore, the selected item is 'หนี้สินตามสัญญาเช่า - ส่วนที่ถึงกำหนดชำระเกินกว่าหนึ่งปี'.", "set_code": "222400"} 
