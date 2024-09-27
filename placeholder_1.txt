@@ -377,3 +377,5 @@ values
 
 
 "CIMBT", "LHFG", "AEONTS", "ACAP", "BYD", "XPG", "NKI", "BUI", "BTSGIF", "3BBIF", "OCC", "BANPU", "WINDOW" 
+
+""\\""ยังไม่ได้ตรวจสอบ\\""""
