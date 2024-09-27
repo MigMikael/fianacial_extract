@@ -372,3 +372,8 @@ values
 
 
 "BAY", "JMT", "MFC", "TSI", "MJLF", "SCC", "BAM", "SCB", "AIRA", "SAWAD", "KGI", "MST", "MTI", "TIPH", "FTREIT", "BKKCP", "BTS", "TKN"
+
+
+
+
+"CIMBT", "LHFG", "AEONTS", "ACAP", "BYD", "XPG", "NKI", "BUI", "BTSGIF", "3BBIF", "OCC", "BANPU", "WINDOW" 
