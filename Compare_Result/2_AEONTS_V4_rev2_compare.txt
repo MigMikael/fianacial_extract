@@ -1,0 +1,14 @@
+Reading AI Result from: ./AI_Mapping_Result/V4/2_AEONTS_mapping_result_V4_rev2.csv
+Reading Prod Result from: ./Listed_Mapping_Prod/2024/AEONTS_Q2_2024.csv
+
+Total Taxonomy item from Prod: 156
+Total Extracted Taxonomy item: 149
+Match between Prod and AI (Correct Map): 124
+Match between Parent Prod and AI (Partialy Correct Map): 7
+Not Match between Prod and AI: 39
+
+Accuracy: 83.22147651006712 % 
+Accuracy (include parent map): 87.91946308724832 % 
+
+Detail of unmatch item: ./Compare_Result/2_AEONTS_V4_rev2_compare.csv 
+

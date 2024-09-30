@@ -1,0 +1,14 @@
+Reading AI Result from: ./AI_Mapping_Result/V4/1_LHFG_mapping_result_V4_rev1.csv
+Reading Prod Result from: ./Listed_Mapping_Prod/2024/LHFG_Q2_2024.csv
+
+Total Taxonomy item from Prod: 158
+Total Extracted Taxonomy item: 153
+Match between Prod and AI (Correct Map): 123
+Match between Parent Prod and AI (Partialy Correct Map): 5
+Not Match between Prod and AI: 40
+
+Accuracy: 80.3921568627451 % 
+Accuracy (include parent map): 83.66013071895425 % 
+
+Detail of unmatch item: ./Compare_Result/1_LHFG_V4_rev1_compare.csv
+

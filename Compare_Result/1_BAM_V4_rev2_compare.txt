@@ -1,0 +1,14 @@
+Reading AI Result from: ./AI_Mapping_Result/V4/1_BAM_mapping_result_V4_rev2.csv
+Reading Prod Result from: ./Listed_Mapping_Prod/2024/BAM_Q2_2024.csv
+
+Total Taxonomy item from Prod: 114
+Total Extracted Taxonomy item: 112
+Match between Prod and AI (Correct Map): 101
+Match between Parent Prod and AI (Partialy Correct Map): 3
+Not Match between Prod and AI: 16
+
+Accuracy: 90.17857142857143 % 
+Accuracy (include parent map): 92.85714285714286 % 
+
+Detail of unmatch item: ./Compare_Result/1_BAM_V4_rev2_compare.csv
+

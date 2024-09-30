@@ -1,0 +1,14 @@
+Reading AI Result from: ./AI_Mapping_Result/V4/1_CIMBT_mapping_result_V4_rev1.csv
+Reading Prod Result from: ./Listed_Mapping_Prod/2024/CIMBT_Q2_2024.csv
+
+Total Taxonomy item from Prod: 145
+Total Extracted Taxonomy item: 136
+Match between Prod and AI (Correct Map): 115
+Match between Parent Prod and AI (Partialy Correct Map): 3
+Not Match between Prod and AI: 33
+
+Accuracy: 84.55882352941177 % 
+Accuracy (include parent map): 86.76470588235294 % 
+
+Detail of unmatch item: ./Compare_Result/1_CIMBT_V4_rev1_compare.csv
+

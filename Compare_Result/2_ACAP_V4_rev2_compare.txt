@@ -1,0 +1,14 @@
+Reading AI Result from: ./AI_Mapping_Result/V4/2_ACAP_mapping_result_V4_rev2.csv
+Reading Prod Result from: ./Listed_Mapping_Prod/2024/ACAP_Q2_2024.csv
+
+Total Taxonomy item from Prod: 112
+Total Extracted Taxonomy item: 109
+Match between Prod and AI (Correct Map): 90
+Match between Parent Prod and AI (Partialy Correct Map): 6
+Not Match between Prod and AI: 28
+
+Accuracy: 82.56880733944955 % 
+Accuracy (include parent map): 88.07339449541286 % 
+
+Detail of unmatch item: ./Compare_Result/2_ACAP_V4_rev2_compare.csv
+
