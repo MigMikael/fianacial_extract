@@ -379,3 +379,22 @@ values
 "CIMBT", "LHFG", "AEONTS", "ACAP", "BYD", "XPG", "NKI", "BUI", "BTSGIF", "3BBIF", "OCC", "BANPU", "WINDOW" 
 
 ""\\""ยังไม่ได้ตรวจสอบ\\""""
+
+
+
+
+
+{'taxonomy_account_name': 'ลูกหนี้การค้า', 
+'ai_account_code': '', 
+'ai_acc_name': '', 
+'prod_account_name': 'ลูกหนี้การค้า', 
+'prod_account_code': '122040', 
+'prod_parent_account_code': '122000', 
+'is_match': False, 
+'is_match_parent': False, 
+'unmatch_remark': '112040-ลูกหนี้การค้า-ลูกหนี้การค้า-The input item name ลูกหนี้การค้า matched with item_in_taxonomy ลูกหนี้การค้า in the Taxonomy list. And the input metadata financial_statement_type งบฐานะการเงิน is matched with financial_statement_type BS_A and fs_category สินทรัพย์ is matched with fs_category สินทรัพย์หมุนเวียน in the Taxonomy list. | 
+112040-ลูกหนี้การค้า-ลูกหนี้การค้า-Taxonomy list was filtered by financial_statement_type งบฐานะการเงิน and fs_category สินทรัพย์.  The best match from the list is ลูกหนี้การค้า. | '}
+
+240418
+
+447820
